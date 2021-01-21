@@ -1,0 +1,99 @@
+.IonContent {
+  --background: whitesmoke;
+  --offset-bottom: 0;
+}
+.ion-avatar {
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.ion-header {
+  display: flex;
+  align-items: center;
+}
+
+.scroll-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.input-Text {
+  box-shadow: -13px 0 42px rgba(0, 0, 0, 0.08) !important;
+}
+.header {
+  display: flex;
+}
+.searchbar-input {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.msg-list {
+        width: 100%;
+  background-color: whitesmoke;
+}
+.messenger-container {
+        padding: 8px 15px 8px 13px;
+        margin: 12px 0 0 35px;
+        float: left;
+        max-width: 82%;
+        background: #f2f2f2;
+        border-radius: 10px;
+        min-width: 20%;
+        position: relative; box-sizing: border-box;
+        box-shadow: 7px 10px 6px -5px #BBC0C7;
+      }
+    .messenger-container p {
+      color:white;
+      font-size: 12px;
+      margin-bottom: 6px;
+      line-height: 18px;
+      word-wrap: break-word; margin: 0;
+      font-family: arial;
+      font-size: 1.1em;
+    }
+    .sender .messenger-container {
+        float: right;
+        width: auto;
+        background: cornflowerblue;
+        color: white;
+        margin-left: 0px;
+        padding: 8px 15px 8px 13px;
+    }
+    .clear {
+        clear:both;
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px;
+        height:0px;
+    }
+       .messenger-container::before {
+           width: 0px;
+           height: 0px;
+           border-top: 8px solid transparent;
+           border-bottom: 8px solid transparent; 
+
+           border-right:15px solid #f2f2f2; 
+           content: "";
+           position: absolute;
+           top: 9px;
+           left: -15px;
+       }
+    .sender .messenger-container::before {
+          width: 0px;
+          height: 0px;
+          border-top: 8px solid transparent;
+          border-bottom: 8px solid transparent;
+          border-left: 15px solid cornflowerblue;
+          color: white;
+          content: "";
+          position: absolute;
+          top: 9px;
+          left: 99%;border-right: none;
+   }
+   .toolbar-search {
+     padding: '5px 7px 0 0';
+   }
+  
+  
