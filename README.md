@@ -38,8 +38,9 @@ To Start Server:
 `npm start`  
 
 ## Demo
-![video-1611239381_ri3Ukb0I_r4Tx](https://user-images.githubusercontent.com/30657193/105381238-161a0180-5c0f-11eb-81f3-680b235a045f.gif)
-https://user-images.githubusercontent.com/30657193/105373033-87a18200-5c06-11eb-90bf-3a00bf1280d7.mp4
+ <img src="https://user-images.githubusercontent.com/30657193/105381238-161a0180-5c0f-11eb-81f3-680b235a045f.gif" width="200" height="400"/>
+ 
+  https://user-images.githubusercontent.com/30657193/105373033-87a18200-5c06-11eb-90bf-3a00bf1280d7.mp4
 
 
 
