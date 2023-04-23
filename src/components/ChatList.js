@@ -16,7 +16,7 @@ const ChatList = (props) => {
           <div key={id}>
             <div className="clear"></div>
             <Avatar className="ion-avatar">
-              <img src="https://imagizer.imageshack.com/img924/9468/vFNu9n.jpg" />
+              <img />
             </Avatar>
             <ChatBubble message={item.message} />
 
